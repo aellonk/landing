@@ -4,33 +4,13 @@ html, body {
 
 body {
   margin: 0;
-  background: #000;
-  color: white; 
-}
-
-video { 
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  transform: translateX(-50%) translateY(-50%);
-  background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
-  background-size: cover;
-  transition: 1s opacity;
-}
-.stopfade { 
-   opacity: .5;
+  background: #fff;
+  color: #000; 
+  text-transform: uppercase;
 }
 
 #centered-title { 
-  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
-  font-weight:100; 
   padding: 2rem;
-
   margin: 0 auto;
   font-size: 1.2rem;
   text-align: center;
@@ -45,7 +25,7 @@ video {
 }
 
 #centered-bottom {
-  width: 50%;
+  width: 500px;
   margin: 0 auto;
   font-size: 1.2rem;
   text-align: center;
@@ -58,7 +38,6 @@ video {
 button {
   border: none;
   background-color: transparent;
-  color: #fff;
 }
 
 h1 {
@@ -82,7 +61,7 @@ h1 {
 
 /* Modal Content/Box */
 .modal-content {
-  margin: 15% auto; /* 15% from the top and centered */
+  margin: 10% auto; /* 15% from the top and centered */
   padding: 20px;
   width: 80%; /* Could be more or less, depending on screen size */
   opacity: 1;
@@ -117,6 +96,10 @@ h1 {
 
 
 @media screen and (max-width: 800px) {
+  h1 {
+    font-size: 6rem;
+  }
+
   #centered-title {
     top: 35%;
   }
@@ -126,7 +109,7 @@ h1 {
   }
 
   .modal-content {
-    margin-top: 8rem;
+    margin-top: 5rem;
   }
   /* html { background: url(https://thenewcode.com/assets/images/polina.jpg) #000 no-repeat center center fixed; }
   #bgvid { display: none; } */
