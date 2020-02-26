@@ -12,7 +12,7 @@ body {
 #centered-title { 
   padding: 2rem;
   margin: 0 auto;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: center;
   position: absolute;
   top: 40%;
@@ -61,7 +61,7 @@ h1 {
 
 /* Modal Content/Box */
 .modal-content {
-  margin: 10% auto; /* 15% from the top and centered */
+  margin: 6% auto; /* 15% from the top and centered */
   padding: 20px;
   width: 80%; /* Could be more or less, depending on screen size */
   opacity: 1;
@@ -88,7 +88,7 @@ h1 {
 }
 
 .social-media {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 .social-media img {
@@ -96,24 +96,32 @@ h1 {
   width: 3rem;
 }
 
+.small {
+  font-size: .9rem;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
 
 
 
 @media screen and (max-width: 800px) {
   h1 {
-    font-size: 6rem;
+    font-size: 5.5rem;
   }
 
   #centered-title {
-    top: 35%;
+    top: 50%;
   }
 
   #centered-bottom {
     width: 80%;
+    bottom: 15%;
   }
 
   .modal-content {
-    margin-top: 5rem;
+    margin-top: 2rem;
   }
   /* html { background: url(https://thenewcode.com/assets/images/polina.jpg) #000 no-repeat center center fixed; }
   #bgvid { display: none; } */
