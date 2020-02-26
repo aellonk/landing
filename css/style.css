@@ -68,6 +68,10 @@ h1 {
   background-color: transparent;
 }
 
+.modal-content p {
+  color: #aaa;
+}
+
 /* The Close Button */
 .close {
   color: #aaa;
