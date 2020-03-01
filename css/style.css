@@ -108,6 +108,7 @@ h1 {
   float: right;
   font-size: 28px;
   font-weight: bold;
+  padding-top: 5px;
 }
 
 .close:hover,
@@ -135,7 +136,7 @@ h1 {
 }
 
 .pt-5px {
-  padding-top: 5px;
+  padding-top: 5px !important;
 }
 
 .fs-lg {
@@ -147,13 +148,13 @@ h1 {
 }
 
 .fs-med {
-  font-size: 1.1667rem;
+  font-size: 1.1667rem !important;
 }
 
 input {
   border: 1px solid black !important;
   border-radius: 3px !important;
-  padding: 1px 5px 2px !important;
+  padding: 1px 5px !important;
 }
 
 input[type="submit" i] {
@@ -161,7 +162,7 @@ input[type="submit" i] {
 }
 
 input[type="email"] {
-  margin-right: 2px;
+  height: 32px !important;
 }
 
 #mc_embed_signup_scroll {
@@ -180,13 +181,17 @@ input[type="email"] {
 /*  padding: 0 10px !important;*/
 }
 
+#mc_embed_signup div#mce-responses {
+  display: none !important; 
+}
+
 .center {
   width: 80%;
   margin: 0 auto;
 }
 
 #signupButton {
-    margin-top: 1rem;
+    margin-top: 1rem ;
   }
 
 @media screen and (max-width: 800px) {
