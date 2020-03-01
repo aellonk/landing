@@ -151,9 +151,9 @@ h1 {
 }
 
 input {
-  border: 1px solid black;
-  border-radius: 1px;
-  padding: 1px 5px 2px;
+  border: 1px solid black !important;
+  border-radius: 3px !important;
+  padding: 1px 5px 2px !important;
 }
 
 input[type="submit" i] {
@@ -170,6 +170,14 @@ input[type="email"] {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+}
+
+#mc_embed_signup .button {
+  background-color: #fff !important;
+  color: #000 !important;
+ /* border-radius: 3px !important;*/
+  /*border: 1px solid #000 !important;*/
+/*  padding: 0 10px !important;*/
 }
 
 .center {
