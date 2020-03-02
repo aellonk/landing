@@ -197,7 +197,10 @@ input[type="email"] {
 
 #mc_embed_signup #mce-success-response {
   color: #000 !important;
-  background-color: #fff !important;
+}
+
+#mce-error-response, #mce-success-response{
+    background-color: #fff !important;
 }
 
 #mc_embed_signup .mc-field-group input {
