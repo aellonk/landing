@@ -195,9 +195,18 @@ input[type="email"] {
   display: none !important; 
 }*/
 
+#mc_embed_signup #mce-success-response {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+
 #mc_embed_signup .mc-field-group input {
   font-size: 14.4px !important;
   width: 200% !important;
+  font-weight: normal !important;
+}
+
+#mc_embed_signup div.response {
   font-weight: normal !important;
 }
 
