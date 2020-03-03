@@ -254,6 +254,7 @@ input[type="email"] {
 
   #mc_embed_signup div.response {
     top: -0.5em !important;
+    margin: .75em 0 !important;
   }
   #mc_embed_signup_scroll {
     height: 24px !important;
@@ -262,6 +263,7 @@ input[type="email"] {
     .neg-margin {
       margin-top: -2.5rem !important;
     }
+
 
 }
 
