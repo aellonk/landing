@@ -180,6 +180,7 @@ input[type="email"] {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  text-align: center !important;
 }
 
 #mc_embed_signup .button {
@@ -228,10 +229,6 @@ input[type="email"] {
     margin-top: 1rem ;
   }
 
-  #mc_embed_signup_scroll {
-    text-align: center !important;
-  }
-
 @media screen and (max-width: 800px) {
   h1 {
     font-size: 5rem;
@@ -254,8 +251,10 @@ input[type="email"] {
 
   #mc_embed_signup div.response {
     top: -0.5em !important;
-}
-
+  }
+  #mc_embed_signup_scroll {
+    height: 24px !important;
+    }
 
 }
 
