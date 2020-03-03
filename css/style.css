@@ -88,16 +88,18 @@ h1 {
 /* Modal Content/Box */
 .modal-content {
   margin: 6% auto; 
-  padding: 20px;
+  padding: 20px 20px 0 20px;
   width: 65%; /* Could be more or less, depending on screen size */
   opacity: 1;
   background-color: transparent;
   margin-top: 1%;
+  margin-bottom: 0;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  height: 40px;
 }
 
 #modal {
