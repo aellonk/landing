@@ -267,6 +267,10 @@ input[type="email"] {
   .modal-content {
     width: 85%;
   }
+
+  .neg-margin {
+    margin-top: -2.5rem;
+  }
 }
 
 /* Ipad */
