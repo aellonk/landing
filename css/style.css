@@ -228,6 +228,10 @@ input[type="email"] {
     margin-top: 1rem ;
   }
 
+  #mc_embed_signup_scroll {
+    text-align: center !important;
+  }
+
 @media screen and (max-width: 800px) {
   h1 {
     font-size: 5rem;
