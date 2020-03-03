@@ -258,7 +258,7 @@ input[type="email"] {
     }
 
     .neg-margin {
-      margin-top: -2.5rem;
+      margin-top: -2.5rem !important;
     }
 
 }
@@ -268,9 +268,6 @@ input[type="email"] {
     width: 85%;
   }
 
-  .neg-margin {
-    margin-top: -2.5rem;
-  }
 }
 
 /* Ipad */
