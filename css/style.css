@@ -248,6 +248,10 @@ input[type="email"] {
     padding-right: 10px;
   }
 
+  #mc_embed_signup div.response {
+    top: -0.5em !important;
+}
+
 
 }
 
