@@ -225,20 +225,13 @@ input[type="email"] {
 }
 
 .center {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 
 #signupButton {
     margin-top: 1rem ;
   }
-
-@media screen and (min-width:800px) {
-  .modal-content {
-    width: 75%;
-    margin-top: 1rem;
-  }
-}
 
 @media screen and (max-width: 800px) {
   h1 {
@@ -255,7 +248,7 @@ input[type="email"] {
   }
 
   .modal-content {
-    width: 75%;
+    width: 95%;
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -271,12 +264,8 @@ input[type="email"] {
     .neg-margin {
       margin-top: -2.5rem !important;
     }
-}
 
-@media screen and (min-width: 615px) and (max-width: 800px) {
-  .center {
-    width: 45%;
-  }
+
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)and (orientation: portrait) { 
