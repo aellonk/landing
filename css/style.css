@@ -224,6 +224,13 @@ input[type="email"] {
     margin-top: 1rem ;
   }
 
+@media screen and (min-width:800px) {
+  .modal-content {
+    width: 75%;
+    margin-top: 1rem;
+  }
+}
+
 @media screen and (max-width: 800px) {
   h1 {
     font-size: 5rem;
