@@ -1,21 +1,14 @@
 @font-face {
-    font-family: 'AvenirNextLTPro';
-    src: url('../fonts/AvenirNextLTPro-Regular.otf') format('opentype');
+    font-family: 'NeoplantaBG';
+    src: url('../fonts/NeoplantaBG.otf') format('opentype');
     font-style: normal;
     font-display: fallback;
     font-weight: normal;
 }
 
 @font-face {
-    font-family: 'AvenirNextLTPro';
-    src: url('../fonts/AvenirNextLTPro-It.otf') format('opentype');
-    font-style: italic;
-    font-display: fallback;
-}
-
-@font-face {
-    font-family: 'AvenirNextLTPro';
-    src: url('../fonts/AvenirNextLTPro-Bold.otf') format('opentype');
+    font-family: 'NeoplantaBG';
+    src: url('../fonts/NeoplantaBG-Bold.otf') format('opentype');
     font-style: bold;
     font-display: fallback;
     font-weight: bold;
@@ -29,8 +22,7 @@ body {
   margin: 0;
   background: #fff;
   color: #000; 
-  text-transform: uppercase;
-  font-family: 'AvenirNextLTPro', serif !important;
+  font-family: 'NeoplantaBG', serif !important;
   overflow: hidden;
 }
 
@@ -224,7 +216,7 @@ input[type="email"] {
 }
 
 .center {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -263,8 +255,12 @@ input[type="email"] {
     .neg-margin {
       margin-top: -2.5rem !important;
     }
+}
 
-
+@media screen and (min-width: 615px) and (max-width: 800px) {
+  .center {
+    width: 45%;
+  }
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)and (orientation: portrait) { 
