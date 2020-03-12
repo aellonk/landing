@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'NeoplantaBG';
     src: url('../fonts/NeoplantaBG.otf') format('opentype');
     font-style: normal;
@@ -20,21 +20,40 @@
   font-style: bold;
   font-display: fallback;
   font-weight: normal;
+} */
+
+@font-face {
+  font-family: 'Gotham Book';
+  src: url('../fonts/GOTHAMBOOK.TTF') format('truetype');
+  font-style: normal;
+  font-display: fallback;
+  font-weight: normal;
 }
+
+@font-face {
+  font-family: 'Gotham Book Bold';
+  src: url('../fonts/Gotham_Medium_Regular.ttf') format('truetype');
+  font-style: bold;
+  font-display: fallback;
+  font-weight: normal;
+}
+
+
 
 html, body {
   height: 100%;
+  max-width: 1200px;
 }
 
 body {
   margin: 0;
   background: #fff;
   color: #000; 
-  font-family: 'NeoplantaBG', serif !important;
+  font-family: 'Gotham Book', serif !important;
   overflow: hidden;
 }
 
-#centered-title { 
+/* #centered-title { 
   padding: 2rem;
   margin: 0 auto;
   font-size: 1rem;
@@ -47,8 +66,15 @@ body {
 
 #centered-title p {
   margin-top: 0;
-}
+} */
 
+#logo {
+    width: 45%;
+    height: auto;
+    margin-top: 3rem;
+    margin-left: 20%;
+}
+/* 
 #centered-bottom {
   width: 500px;
   margin: 0 auto;
@@ -58,21 +84,21 @@ body {
   bottom: 12%;
   left: 50%;
   transform: translate(-50%, 50%);
-}
+} */
 
 button {
   border: none;
   background-color: transparent;
 }
 
-h1 {
+/* h1 {
   font-family: 'AvenirNextLTPro';
   font-size: 8rem;
   text-transform: uppercase;
   margin: 0;
   letter-spacing: .3rem;
   height: 135px;
-}
+} */
 
 /* The Modal (background) */
 .modal {
@@ -127,7 +153,7 @@ h1 {
 }
 
 .social-media {
-  margin-top: 1.8rem;
+
 }
 
 .social-media img {
@@ -139,8 +165,19 @@ h1 {
   font-size: .9rem;
 }
 
-.mb-1 {
+/* .mb-1 {
   margin-bottom: 1rem;
+} */
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+#body-text {
+  font-size: 3rem;
+  margin-top: 8rem;
+  margin-left: 20%;
 }
 
 .pt-5px {
@@ -224,28 +261,35 @@ input[type="email"] {
   font-weight: normal !important;
 }
 
-.center {
+/* .center {
   width: 80%;
   margin: 0 auto;
-}
+} */
 
 #signupButton {
-    margin-top: 1rem ;
-  }
+    font-size: 1.75rem;
+    padding: 0;
+    margin-right: 2rem;
+}
+
+.display-flex {
+  display: flex;
+  margin-top: 3rem;
+}
 
 @media screen and (max-width: 800px) {
-  h1 {
+  /* h1 {
     font-size: 5rem;
-  }
+  } */
 
-  #centered-title {
+  /* #centered-title {
     top: 50%;
-  }
+  } */
 
-  #centered-bottom {
+  /* #centered-bottom {
     width: 100%;
     bottom: 15%;
-  }
+  } */
 
   .modal-content {
     width: 95%;
@@ -268,16 +312,133 @@ input[type="email"] {
 
 }
 
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2)and (orientation: portrait) { 
+  .modal-content {
+    width: 85%;
+  }
+
+  #logo {
+    width: 80%;
+    height: auto;
+    margin-top: 6rem;
+    margin-left: 8%;
+}
+
+.display-flex {
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+  #body-text {
+    font-size: 1.35rem;
+    margin-top: 4rem;
+    margin-left: 8%;
+  }
+
+  #signupButton {
+    font-size: 1rem;
+
+    text-align: left;
+  }
+
+  .social-media {
+    margin-top: 1.8rem;
+    text-align: center;
+  }
+
+
+
+}
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)and (orientation: portrait) { 
   .modal-content {
     width: 85%;
   }
 
+  #logo {
+    width: 80%;
+    height: auto;
+    margin-top: 6rem;
+    margin-left: 8%;
+}
+
+.display-flex {
+  flex-direction: column;
+      margin-top: 9rem;
+}
+
+  #body-text {
+    font-size: 1.65rem;
+    margin-top: 4rem;
+    margin-left: 8%;
+  }
+
+  #signupButton {
+    font-size: 1.25rem;
+    padding: 0;
+    text-align: left;
+  }
+
+  .social-media {
+    margin-top: 1.8rem;
+    text-align: center;
+  }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Portrait */
+/* @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3)and (orientation: portrait) { 
+  #body-text {
+    font-size: 1.85rem;
+    margin-top: 5rem;
+  }
+
+  #signupButton {
+    margin-top: 11rem;
+  }
+} */
+
+/* ----------- iPhone X ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) { 
+  #logo {
+    width: 80%;
+    height: auto;
+    margin-top: 6rem;
+    margin-left: 8%;
+}
+
+  .display-flex {
+    flex-direction: column;
+        margin-top: 11rem;
+  }
+  
+  #body-text {
+    font-size: 1.85rem;
+    margin-top: 5rem;
+    margin-left: 8%;
+  }
+  
+
+  #signupButton {
+    font-size: 1.25rem;
+    text-align: left;
+  }
+
+  .social-media {
+    margin-top: 1.8rem;
+    text-align: center;
+  }
+  
 }
 
 /* Ipad */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-#centered-bottom {
+/* #centered-bottom {
     width: 44%;
-  }
+  } */
 }
