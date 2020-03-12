@@ -338,7 +338,7 @@ input[type="email"] {
   }
 
   #logo {
-    width: 80%;
+    width: 75%;
     height: auto;
     margin-top: 4rem;
     margin-left: 8%;
@@ -350,7 +350,7 @@ input[type="email"] {
 }
 
   #body-text {
-    font-size: 1.35rem;
+    font-size: 1.25rem;
     margin-top: 4rem;
     margin-left: 8%;
   }
@@ -386,7 +386,7 @@ input[type="email"] {
   }
 
   #logo {
-    width: 80%;
+    width: 75%;
     height: auto;
     margin-top: 4rem;
     margin-left: 8%;
@@ -398,7 +398,7 @@ input[type="email"] {
 }
 
   #body-text {
-    font-size: 1.65rem;
+    font-size: 1.55rem;
     margin-top: 4rem;
     margin-left: 8%;
   }
@@ -432,7 +432,7 @@ input[type="email"] {
 /* Portrait */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) { 
   #logo {
-    width: 80%;
+    width: 75%;
     height: auto;
     margin-top: 4rem;
     margin-left: 8%;
@@ -452,7 +452,7 @@ input[type="email"] {
   }
   
   #body-text {
-    font-size: 1.85rem;
+    font-size: 1.55rem;
     margin-top: 5rem;
     margin-left: 8%;
   }
