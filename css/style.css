@@ -223,7 +223,6 @@ input[type="email"] {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  text-align: center !important;
 }
 
 #mc_embed_signup form {
