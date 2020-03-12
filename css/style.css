@@ -133,7 +133,7 @@ button {
 }
 
 #modal {
-  margin-top: -2rem;
+  margin-top: -4rem;
 }
 
 .modal-content p {
@@ -178,7 +178,7 @@ p {
 }
 
 #body-text {
-  font-size: 3rem;
+  font-size: 2.75rem;
   margin-top: 8rem;
   margin-left: 20%;
 }
@@ -227,7 +227,7 @@ input[type="email"] {
 }
 
 #mc_embed_signup form {
-  padding: 0; 
+  padding: 0 !important; 
 }
 
 #mc_embed_signup .button {
@@ -330,7 +330,7 @@ input[type="email"] {
   }
 
   #modal {
-    margin-top: -4rem;
+    margin-top: -3.5rem;
   }
 
   #logo {
@@ -374,7 +374,7 @@ input[type="email"] {
   }
 
   #modal {
-    margin-top: -4rem;
+    margin-top: -3.5rem;
   }
 
   #logo {
@@ -431,7 +431,7 @@ input[type="email"] {
 }
 
 #modal {
-  margin-top: -4rem;
+  margin-top: -3.5rem;
 }
 
   .display-flex {
