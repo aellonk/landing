@@ -335,7 +335,7 @@ input[type="email"] {
 
 .display-flex {
   flex-direction: column;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
   #body-text {
@@ -375,7 +375,7 @@ input[type="email"] {
 
 .display-flex {
   flex-direction: column;
-      margin-top: 9rem;
+      margin-top: 6rem;
 }
 
   #body-text {
@@ -421,7 +421,7 @@ input[type="email"] {
 
   .display-flex {
     flex-direction: column;
-        margin-top: 11rem;
+        margin-top: 9rem;
   }
   
   #body-text {
