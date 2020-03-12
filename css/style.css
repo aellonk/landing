@@ -363,7 +363,7 @@ input[type="email"] {
 
   .social-media {
     margin-top: 1.8rem;
-    text-align: center;
+    margin-left: 27%;
   }
 
 
@@ -398,7 +398,7 @@ input[type="email"] {
 }
 
   #body-text {
-    font-size: 1.55rem;
+    font-size: 1.45rem;
     margin-top: 4rem;
     margin-left: 8%;
   }
@@ -411,22 +411,11 @@ input[type="email"] {
 
   .social-media {
     margin-top: 1.8rem;
-    text-align: center;
+    margin-left: 32%;
   }
 }
 
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
-/* Portrait */
-/* @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3)and (orientation: portrait) { 
-  #body-text {
-    font-size: 1.85rem;
-    margin-top: 5rem;
-  }
 
-  #signupButton {
-    margin-top: 11rem;
-  }
-} */
 
 /* ----------- iPhone X ----------- */
 /* Portrait */
@@ -465,7 +454,7 @@ input[type="email"] {
 
   .social-media {
     margin-top: 1.8rem;
-    text-align: center;
+    margin-left: 30%;
   }
   
 }
