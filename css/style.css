@@ -111,7 +111,7 @@ button {
   z-index: 1; /* Sit on top */
   left: 0;
   width: 100%; /* Full width */
-  height: 50%;
+  height: 9%;
   overflow: auto; /* Enable scroll if needed */
 }
 
