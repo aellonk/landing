@@ -252,9 +252,9 @@ input[type="email"] {
     font-size: 0.9rem !important;
     position: absolute !important;
     left: 0 !important;
-    padding: 10px 0 10px 3% !important;
+    padding: 1rem 0 10px 0!important;
     width: 100% !important;
-    height: 47% !important;
+    height: 40% !important;
 }
 
 #mc_embed_signup .mc-field-group input {
@@ -265,6 +265,7 @@ input[type="email"] {
 
 #mc_embed_signup div.response {
   font-weight: normal !important;
+  margin: 0 !important;
 }
 
 /* .center {
