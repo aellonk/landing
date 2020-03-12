@@ -329,6 +329,10 @@ input[type="email"] {
     width: 85%;
   }
 
+  #modal {
+    margin-top: -5rem;
+  }
+
   #logo {
     width: 80%;
     height: auto;
@@ -367,6 +371,10 @@ input[type="email"] {
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)and (orientation: portrait) { 
   .modal-content {
     width: 85%;
+  }
+
+  #modal {
+    margin-top: -5rem;
   }
 
   #logo {
@@ -420,6 +428,10 @@ input[type="email"] {
     height: auto;
     margin-top: 4rem;
     margin-left: 8%;
+}
+
+#modal {
+  margin-top: -5rem;
 }
 
   .display-flex {
