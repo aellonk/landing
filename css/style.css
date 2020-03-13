@@ -42,7 +42,7 @@
 
 html, body {
   height: 100%;
-  max-width: 1200px;
+  /* max-width: 1200px; */
 }
 
 body {
@@ -72,7 +72,6 @@ body {
     width: 45%;
     height: auto;
     margin-top: 3rem;
-    margin-left: 20%;
 }
 /* 
 #centered-bottom {
@@ -181,10 +180,10 @@ p {
   font-size: 2.75rem;
   margin-top: 8rem;
 }
-
+/* 
 #body-text p, #body-text button {
   margin-left: 20%;
-}
+} */
 
 
 .pt-5px {
@@ -287,6 +286,15 @@ input[type="email"] {
   margin-top: 3rem;
 }
 
+.center {
+  text-align: center;
+}
+
+.body-center{
+  margin-left: auto;
+  margin-right: auto;
+  width: 13em;
+}
 @media screen and (max-width: 800px) {
   /* h1 {
     font-size: 5rem;
@@ -374,7 +382,9 @@ input[type="email"] {
     margin-right: auto;
   }
 
-
+  .body-center {
+    width: 100%;
+  }
 
 }
 
@@ -425,6 +435,10 @@ input[type="email"] {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .body-center {
+    width: 100%;
+  }
 }
 
 
@@ -471,6 +485,10 @@ input[type="email"] {
     margin-top: 2.5rem;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .body-center {
+    width: 100%;
   }
   
 }
