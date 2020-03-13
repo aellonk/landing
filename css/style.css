@@ -155,9 +155,9 @@ button {
   cursor: pointer;
 }
 
-.social-media {
+/* .social-media {
 
-}
+} */
 
 .social-media img {
   height: 2.5rem;
@@ -180,8 +180,12 @@ p {
 #body-text {
   font-size: 2.75rem;
   margin-top: 8rem;
+}
+
+#body-text p, #body-text button {
   margin-left: 20%;
 }
+
 
 .pt-5px {
   padding-top: 5px !important;
@@ -352,6 +356,9 @@ input[type="email"] {
   #body-text {
     font-size: 1.25rem;
     margin-top: 4rem;
+  }
+
+  #body-text p, #body-text button {
     margin-left: 8%;
   }
 
@@ -362,8 +369,9 @@ input[type="email"] {
   }
 
   .social-media {
-    margin-top: 1.8rem;
-    margin-left: 27%;
+    margin-top: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 
@@ -400,6 +408,9 @@ input[type="email"] {
   #body-text {
     font-size: 1.45rem;
     margin-top: 4rem;
+  }
+
+  #body-text p, #body-text button {
     margin-left: 8%;
   }
 
@@ -410,8 +421,9 @@ input[type="email"] {
   }
 
   .social-media {
-    margin-top: 1.8rem;
-    margin-left: 32%;
+    margin-top: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -443,6 +455,9 @@ input[type="email"] {
   #body-text {
     font-size: 1.65rem;
     margin-top: 5rem;
+  }
+
+  #body-text p, #body-text button {
     margin-left: 8%;
   }
   
@@ -453,8 +468,9 @@ input[type="email"] {
   }
 
   .social-media {
-    margin-top: 1.8rem;
-    margin-left: 30%;
+    margin-top: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
   }
   
 }
