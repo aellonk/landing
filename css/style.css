@@ -1,27 +1,3 @@
-/* @font-face {
-    font-family: 'NeoplantaBG';
-    src: url('../fonts/NeoplantaBG.otf') format('opentype');
-    font-style: normal;
-    font-display: fallback;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: 'NeoplantaBG';
-    src: url('../fonts/NeoplantaBG-Bold.otf') format('opentype');
-    font-style: bold;
-    font-display: fallback;
-    font-weight: bold;
-}
-
-@font-face {
-  font-family: 'AvenirNextLTPro';
-  src: url('../fonts/AvenirNextLTPro-Bold.otf') format('opentype');
-  font-style: bold;
-  font-display: fallback;
-  font-weight: normal;
-} */
-
 @font-face {
   font-family: 'Gotham Book';
   src: url('../fonts/GOTHAMBOOK.TTF') format('truetype');
@@ -42,7 +18,6 @@
 
 html, body {
   height: 100%;
-  /* max-width: 1200px; */
 }
 
 body {
@@ -53,37 +28,11 @@ body {
   overflow: hidden;
 }
 
-/* #centered-title { 
-  padding: 2rem;
-  margin: 0 auto;
-  font-size: 1rem;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#centered-title p {
-  margin-top: 0;
-} */
-
 #logo {
     width: 45%;
     height: auto;
     margin-top: 3rem;
 }
-/* 
-#centered-bottom {
-  width: 500px;
-  margin: 0 auto;
-  font-size: 1.2rem;
-  text-align: center;
-  position: absolute;
-  bottom: 12%;
-  left: 50%;
-  transform: translate(-50%, 50%);
-} */
 
 .bottom {
   bottom: 12%;
@@ -93,15 +42,6 @@ button {
   border: none;
   background-color: transparent;
 }
-
-/* h1 {
-  font-family: 'AvenirNextLTPro';
-  font-size: 8rem;
-  text-transform: uppercase;
-  margin: 0;
-  letter-spacing: .3rem;
-  height: 135px;
-} */
 
 /* The Modal (background) */
 .modal {
@@ -154,10 +94,6 @@ button {
   cursor: pointer;
 }
 
-/* .social-media {
-
-} */
-
 .social-media img {
   height: 2.5rem;
   width: 2.5rem;
@@ -166,10 +102,6 @@ button {
 .small {
   font-size: .9rem;
 }
-
-/* .mb-1 {
-  margin-bottom: 1rem;
-} */
 
 p {
   margin-block-start: 0;
@@ -180,11 +112,6 @@ p {
   font-size: 2.75rem;
   margin-top: 8rem;
 }
-/* 
-#body-text p, #body-text button {
-  margin-left: 20%;
-} */
-
 
 .pt-5px {
   padding-top: 5px !important;
@@ -236,14 +163,7 @@ input[type="email"] {
   background-color: #fff !important;
   color: #000 !important;
   font-size: 14.4px !important;
- /* border-radius: 3px !important;*/
-  /*border: 1px solid #000 !important;*/
-/*  padding: 0 10px !important;*/
 }
-
-/*#mc_embed_signup div#mce-responses {
-  display: none !important; 
-}*/
 
 #mc_embed_signup #mce-success-response {
   color: #000 !important;
@@ -270,11 +190,6 @@ input[type="email"] {
   margin: 0 !important;
 }
 
-/* .center {
-  width: 80%;
-  margin: 0 auto;
-} */
-
 #signupButton {
     font-size: 1.75rem;
     padding: 0;
@@ -296,18 +211,6 @@ input[type="email"] {
   width: 13em;
 }
 @media screen and (max-width: 800px) {
-  /* h1 {
-    font-size: 5rem;
-  } */
-
-  /* #centered-title {
-    top: 50%;
-  } */
-
-  /* #centered-bottom {
-    width: 100%;
-    bottom: 15%;
-  } */
 
   .bottom {
     bottom: 15%;
@@ -495,7 +398,5 @@ input[type="email"] {
 
 /* Ipad */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-/* #centered-bottom {
-    width: 44%;
-  } */
+
 }
